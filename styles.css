@@ -1,36 +1,137 @@
+/* RESET & BASICS */
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.45; /* Slightly tighter line height */
     color: #333;
     background-color: #f9f9f9;
+    font-size: 10.5pt; /* Optimized for single page */
 }
+
+/* PAGE CONTAINER */
 .container {
     max-width: 800px;
     margin: 20px auto;
     background: #fff;
-    padding: 30px;
+    padding: 30px 40px; /* Balanced padding */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.header, .section {
-    margin-bottom: 30px;
-}
-.header h1 {
-    margin: 0;
-    color: #0056b3;
-    font-size: 28px;
-}
-.header p {
-    margin: 5px 0 10px;
-    font-size: 16px;
-}
-.section-title {
-    color: #0056b3;
-    border-bottom: 2px solid #0056b3;
-    padding-bottom: 5px;
-    font-size: 22px;
+
+/* HEADER */
+.header {
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
     margin-bottom: 15px;
 }
-.skills li, .experience li {
-    margin-bottom: 10px;
+
+.header h1 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 24pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header p {
+    margin-top: 5px;
+    font-size: 10pt;
+    color: #555;
+}
+
+.header a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+.section {
+    margin-bottom: 12px; /* Reduced from 30px to save space */
+}
+
+.section-title {
+    color: #2c3e50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 11pt;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* CONTENT STYLES */
+p { 
+    margin-bottom: 5px; 
+}
+
+/* LISTS */
+ul {
+    padding-left: 18px;
+    margin-bottom: 5px;
+}
+
+li {
+    margin-bottom: 2px; /* Tighter list items */
+}
+
+/* SKILLS GRID (Saves vertical space) */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    column-gap: 20px;
+    row-gap: 2px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.skills-grid li {
+    margin-bottom: 2px;
+}
+
+/* EXPERIENCE & PROJECTS */
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.job-date {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* EDUCATION */
+.edu-block {
+    margin-bottom: 5px;
+}
+
+/* PRINT OPTIMIZATION */
+@media print {
+    body { 
+        background: none; 
+    }
+    .container { 
+        width: 100%; 
+        max-width: 100%; 
+        margin: 0; 
+        padding: 0; 
+        box-shadow: none; 
+    }
+    a { 
+        text-decoration: none; 
+        color: #000; 
+    }
 }

@@ -3,64 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jason Merrone's Professional Resume</title>
+    <title>Jason Merrone - IT Support Resume</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Jason Merrone</h1>
-            <p>South Jordan, UT, 84009 | (720) 255-6097 | jasonmerrone@gmail.com | <a href="https://github.com/Jason-Merrone" target="_blank">https://github.com/Jason-Merrone</a></p>
+            <p>South Jordan, UT | (720) 255-6097 | jasonmerrone@gmail.com | <a href="https://github.com/Jason-Merrone" target="_blank">github.com/Jason-Merrone</a></p>
         </div>
-        <div class="section">
-            <h2 class="section-title">Technical Projects</h2>
-            <ul class="projects">
-                <li>
-                    <strong>IDEA Survey Qualitative Analysis Tool</strong>
-                    <ul>
-                        <li>Web app enabling professors to generate summaries and visualizations of course evaluation data.</li>
-                        <li>Utilizes Meta Llama 3.2 (3B Instruct) language model with custom LoRAs created via knowledge distillation from Google Gemma 27B.</li>
-                        <li>Hosted on a Flask backend using the Transformers library, supporting dynamic task execution via LoRa swapping.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Virtual Machine</strong>
-                    <ul>
-                        <li>Virtual computer from scratch in Kotlin with a 500Hz CPU, 16 instructions, and 4KB of RAM.</li>
-                        <li>Implemented OOP design patterns such as Singleton, Strategy, and Factory.</li>
-                        <li>Includes a custom Tic-Tac-Toe ROM compiled from hexadecimal machine code.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>CatConnect</strong>
-                    <ul>
-                        <li>Developed a full-stack CRUD application using React and Django frameworks.</li>
-                        <li>Integrated a custom-trained CNN for binary classification of cat images using a custom dataset.</li>
-                        <li>Enabled user functionality such as account creation, profile management, posts, and likes.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>        
+  
         <div class="section">
             <h2 class="section-title">Educational Background</h2>
-            <p><strong>Salt Lake Community College</strong> - Associate of Science in General Studies (2022)</p>
-            <p><strong>Utah State University</strong> - Bachelor of Science in Computer Science (2025)</p>
+            <div class="edu-block">
+                <div class="job-header">
+                    <span class="job-title">Utah State University - B.S. Computer Science</span>
+                    <span class="job-date">2025</span>
+                </div>
+                <p style="font-size: 0.95em; margin-top: 2px;"><em>Relevant Coursework: Operating Systems, Database Applications, Computer Architecture, Cloud Development</em></p>
+            </div>
+            <div class="edu-block" style="margin-top: 4px;">
+                <div class="job-header">
+                    <span class="job-title">Salt Lake Community College - A.S. General Studies</span>
+                    <span class="job-date">2022</span>
+                </div>
+            </div>
         </div>
+  
+        <div class="section">
+            <h2 class="section-title">Summary</h2>
+            <p>Detail-oriented Computer Science graduate with a strong foundation in IT support, hardware diagnostics, and systems troubleshooting. Proven ability to resolve technical issues efficiently and communicate complex solutions to non-technical users. Experienced in helpdesk operations, electronic repair, and process automation, with a passion for optimizing IT infrastructure and minimizing system downtime.</p>
+        </div>
+  
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <ul class="skills-grid">
+                <li><strong>IT Support & Hardware:</strong> Helpdesk Ticketing Systems, Hardware Diagnostics & Repair, OS Troubleshooting (Windows/Linux), Peripheral Setup</li>
+                <li><strong>Systems & Networking:</strong> System Administration Basics, Virtualization, TCP/IP Fundamentals, Relational Databases</li>
+                <li><strong>Scripting & Automation:</strong> Python, SQL, Bash, PowerShell, API Integration</li>
+                <li><strong>Soft Skills:</strong> Technical Communication, Customer Service, Problem Solving, Technical Documentation</li>
+            </ul>
+        </div>
+  
         <div class="section">
             <h2 class="section-title">Professional Experience</h2>
-            <ul class="experience">
-                <li><strong>Capital Fuels</strong> - Operations Support Technician, Summer 2023. Enhanced customer transaction systems, optimized equipment diagnostics, and streamlined loyalty program registration through SQL and ASP.NET solutions.</li>
-                <li><strong>KSL Broadcast Group</strong> - Engineering Intern, Oct 2021 - Apr 2022. Specialized in electronic repairs, system programming, and 3D design, contributing to technological improvements and operational efficiency.</li>
-            </ul>
+            <div class="job-block">
+                <div class="job-header">
+                    <span class="job-title">Capital Fuels - Operations Support Technician</span>
+                    <span class="job-date">Summer 2023, Aug 2025 - Present</span>
+                </div>
+                <ul>
+                    <li>Utilized internal Helpdesk software to provide frontline technical support, efficiently troubleshooting and resolving user issues to ensure seamless operations.</li>
+                    <li>Developed ASP.NET and SQL solutions to automate routine administrative tasks and data entry, eliminating manual reporting errors.</li>
+                    <li>Diagnosed system bottlenecks in the loyalty program network and managed relational database queries to maintain accurate customer account records.</li>
+                </ul>
+            </div>
+  
+            <div class="job-block" style="margin-top: 8px;">
+                <div class="job-header">
+                    <span class="job-title">KSL Broadcast Group - Engineering Intern</span>
+                    <span class="job-date">Oct 2021 - Apr 2022</span>
+                </div>
+                <ul>
+                    <li>Diagnosed and resolved hardware failures down to the component level, performing electronic repairs and system programming to minimize broadcasting downtime.</li>
+                    <li>Performed preventative maintenance on complex electronic equipment and implemented technological improvements using 3D design software.</li>
+                    <li>Maintained detailed technical documentation and performance logs for station assets, ensuring accurate inventory and repair history tracking.</li>
+                </ul>
+            </div>
         </div>
+  
         <div class="section">
-            <h2 class="section-title">Core Competencies</h2>
-            <ul class="skills">
-                <li><strong>Programming:</strong> Python, JavaScriptn Java, Kotlin, C++</li>
-                <li><strong>Web Development:</strong> React, Django, Flask</li>
-                <li><strong>Machine Learning:</strong> PyTorch, Pandas, Scikit-learn, Jupyter</li>
-                <li><strong>Other skills:</strong> Collaboration, problem-solving, self-starter</li>
-            </ul>
+            <h2 class="section-title">Technical Projects</h2>
+            <div class="project-block">
+                <p><strong>Virtual Machine Simulation</strong> (System Architecture & Resource Management)</p>
+                <ul>
+                    <li>Engineered a virtualized computer system from scratch in Kotlin, gaining deep insight into CPU architecture, instruction sets, and OS-level hardware interactions.</li>
+                    <li>Optimized system memory management within a tightly constrained 4KB RAM environment, demonstrating strong understanding of resource allocation.</li>
+                </ul>
+            </div>
+  
+            <div class="project-block" style="margin-top: 6px;">
+                <p><strong>Automated Data Processing Pipeline</strong> (Scripting & Server Deployment)</p>
+                <ul>
+                    <li>Developed a Python-based automation tool to parse and process unstructured data, eliminating the need for manual review and saving hours of operational time.</li>
+                    <li>Configured and maintained a Flask web server to host the internal application, handling routing, API endpoints, and server-side logic securely.</li>
+                </ul>
+            </div>
+  
+            <div class="project-block" style="margin-top: 6px;">
+                <p><strong>Full-Stack Application Deployment</strong> (Database & Network Management)</p>
+                <ul>
+                    <li>Administered a Django-based backend server, managing a relational database (ORM) to securely store user credentials, authentication logs, and system metrics.</li>
+                    <li>Troubleshot server-side issues and optimized API endpoints to ensure seamless communication between the frontend and backend architectures.</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>

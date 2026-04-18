@@ -1,0 +1,13 @@
+Dear [Hiring Manager Name],
+
+As a recent Computer Science graduate from Utah State University , I have focused my development on transforming raw, unstructured data into clear, actionable insights. I am writing to express my interest in the [Job Title] position at [Company Name], where I am eager to apply my background in Python, machine learning, and data visualization  to drive operational efficiency for your team.
+
+My technical foundation is built on practical application rather than just theory. For example, I recently developed the IDEA Survey Qualitative Analysis Tool, designed to help professors extract meaningful feedback from unstructured course evaluations. For this project, I fine-tuned a Meta Llama 3.2 model to summarize qualitative trends and implemented a Flask backend to visualize sentiment distribution. Additionally, my work on "CatConnect" involved designing a full-stack application that integrated a custom CNN for image classification, requiring me to curate datasets and manage user interactions via Django ORM.
+
+Beyond my academic projects, I have successfully applied these skills in a professional setting. During my time at Capital Fuels, I leveraged SQL to analyze customer transaction data, which directly helped eliminate bottlenecks in the loyalty program registration process. I also developed ASP.NET solutions that automated data entry, significantly reducing manual reporting errors. This experience reinforced my ability to build data pipelines that solve concrete business problems.
+
+I am confident that my blend of full-stack development skills and data analysis expertise makes me a strong candidate for this role. Thank you for your time and consideration.
+
+Sincerely,
+
+Jason Merrone
